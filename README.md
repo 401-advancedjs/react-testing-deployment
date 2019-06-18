@@ -8,8 +8,7 @@
 ### Links and Resources
 * [submission PR](http://xyz.com)
 * [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [netlify](https://cranky-kepler-f720c8.netlify.com/)
 
 #### Documentation
 * [api docs](http://xyz.com) (API servers)
