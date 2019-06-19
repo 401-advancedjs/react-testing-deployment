@@ -6,14 +6,14 @@
 ### Author: Melissa Stock
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
+* [submission PR](https://github.com/401-advancedjs/react-testing-deployment/pull/2)
 * [travis](https://www.travis-ci.com/401-advancedjs/react-testing-deployment)
 * [netlify](https://cranky-kepler-f720c8.netlify.com/)
-* [aws s3](https://cranky-kepler-f720c8.netlify.com/)
-* [aws amplify](https://cranky-kepler-f720c8.netlify.com/)
+* [aws s3](http://react-testing-deployment.s3-website-us-east-1.amazonaws.com)
+* [aws amplify](https://master.d15ydc0hn0c9p.amplifyapp.com/)
 
 #### Documentation
-* [styleguide](http://xyz.com) (React assignments)
+* run `npx styleguidist server`
 
 ### Modules
 #### `header.js`
