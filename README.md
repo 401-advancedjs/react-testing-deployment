@@ -1,46 +1,38 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## React Testing and Deployment
 
-### Author: Student/Group Name
+### Author: Melissa Stock
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
+* [submission PR](https://github.com/401-advancedjs/react-testing-deployment/pull/2)
+* [travis](https://www.travis-ci.com/401-advancedjs/react-testing-deployment)
 * [netlify](https://cranky-kepler-f720c8.netlify.com/)
+* [aws s3](http://react-testing-deployment.s3-website-us-east-1.amazonaws.com)
+* [aws amplify](https://master.d15ydc0hn0c9p.amplifyapp.com/)
 
 #### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
+* run `npx styleguidist server`
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
-
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+#### `header.js`
+#### `footer.js`
+#### `counter.js`
 
 #### Running the app
 * `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
   
 #### Tests
-* How do you run tests?
+* How do you run tests? `npm run test`
 * What assertions were made?
+    * On the Counter module:
+        * basic rendering
+        * increment counter
+        * decrement counter
+        * snapshot matches (DOM rendering matches)
 * What assertions need to be / should be made?
+    * All tests on Header and Footer modules.
 
 #### UML
-Link to an image of the UML for your application and response to events
+![Component Based UI UML](assets/component-based.png)
